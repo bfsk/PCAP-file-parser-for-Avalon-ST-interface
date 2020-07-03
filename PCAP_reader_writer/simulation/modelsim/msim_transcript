@@ -1,0 +1,134 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do run_modelsim_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Asus/Downloads/PCAP_reader_writer/run_modelsim.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:42 on Jan 23,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/run_modelsim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity run_modelsim
+# -- Compiling architecture arch_run_modelsim of run_modelsim
+# End time: 10:12:42 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/pcap_reader.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:13:00 on Jan 23,2020
+# vcom -reportprogress 300 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/pcap_reader.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pcap_reader
+# -- Compiling architecture arch of pcap_reader
+# End time: 10:13:00 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/pcap_reader_writer_test.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:13:00 on Jan 23,2020
+# vcom -reportprogress 30 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/pcap_reader_writer_test.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pcap_reader_writer_test
+# -- Compiling architecture arch of pcap_reader_writer_test
+# End time: 10:13:00 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/pcap_writer.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:13:01 on Jan 23,2020
+# vcom -reportprogress 30 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/pcap_writer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity pcap_writer
+# -- Compiling architecture arch of pcap_writer
+# End time: 10:13:01 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/run_modelsim.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:13:01 on Jan 23,2020
+# vcom -reportprogress 30 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/run_modelsim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity run_modelsim
+# -- Compiling architecture arch_run_modelsim of run_modelsim
+# End time: 10:13:01 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/timer.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:13:01 on Jan 23,2020
+# vcom -reportprogress 30 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/timer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture arch of timer
+# End time: 10:13:01 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work C:/Users/Asus/Downloads/PCAP_reader_writer/pcap_reader.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:23:30 on Jan 23,2020
+# vcom -reportprogress 300 -work work C:/Users/Asus/Downloads/PCAP_reader_writer/pcap_reader.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pcap_reader
+# -- Compiling architecture arch of pcap_reader
+# End time: 10:23:30 on Jan 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.pcap_reader
+# vsim work.pcap_reader 
+# Start time: 10:23:33 on Jan 23,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pcap_reader(arch)
+# Loading work.timer(arch)
+add wave -position insertpoint sim:/pcap_reader/*
+force -freeze sim:/pcap_reader/clk 1 0, 0 {3 ns} -r 6.4
+force -freeze sim:/pcap_reader/reset 0 0
+force -freeze sim:/pcap_reader/avalon_st_tx_ready 0 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /pcap_reader
+restart
+force -freeze sim:/pcap_reader/avalon_st_tx_ready 1 0
+force -freeze sim:/pcap_reader/reset 0 0
+force -freeze sim:/pcap_reader/clk 1 0, 0 {3 ns} -r 6.4
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /pcap_reader
+# End time: 10:58:55 on Jan 23,2020, Elapsed time: 0:35:22
+# Errors: 0, Warnings: 2
